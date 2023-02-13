@@ -1,5 +1,6 @@
 <script>
   import { goto } from "$app/navigation";
+  import { rangeR } from "$lib/store/global";
 
   const settings = () => {
     goto('/Settings', {replaceState: false})
